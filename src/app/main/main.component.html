@@ -1,0 +1,43 @@
+<div class = "container">
+  Конвертер валют
+  <div class="row">
+    <div class="give">
+      <label>Отдаю:</label>
+      <select
+        disabled
+        class="form-control"
+      >
+        <option id="in" value="UAH" selected>UAH</option>
+      </select>
+      <div class="col">
+        <input
+          id="input"
+          type="number"
+          class="form-control"
+          value={{amount}}
+          (keyup)= "onKeyUp($event)"
+        />
+      </div>
+    </div>
+    <div class="take">
+      <label>Получаю:</label>
+      <select
+        id="select-out"
+        class="form-control"
+      >
+        <option id="out1" value="USD">USD</option>
+        <option id="out2" value="EUR">EUR</option>
+        <option id="out3" value="BTC">BTC</option>
+      </select>
+      <div class="col">
+        <input
+          id="result"
+          type="number"
+          class="form-control"
+          value={{price}}
+          (keyup)= "onKeyUpRe($event)"
+        />
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,22 @@
+.container{
+  width: fit-content;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  color: black;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "URW Chancery L", cursive;
+  background-color: white;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  font-size: 24px;
+}
+.row{
+  margin: 10px;
+}
+.give, .take{
+  margin: 10px;
+  display: inline-block;
+}

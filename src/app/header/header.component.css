@@ -1,0 +1,28 @@
+.container{
+  border: 2px black;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 30px;
+  color: black;
+  flex-wrap: wrap;
+  font-family: "URW Chancery L", cursive;
+  background-color: white;
+  border: 4px solid black;
+}
+.buy{
+  display: inline-block;
+  margin-right: 50px;
+}
+.sell{
+  display: inline-block;
+}
+ul{
+  display: inline;
+}
+li{
+  display: inline;
+}
